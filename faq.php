@@ -32,8 +32,8 @@
                         <p>Hemsidan är skapad som projekt för kursen Elektronisk Publicering (TNMK033) på Linköpings Universitet. 
                             Projektet är skapad enligt uppgiftsbeskrivning nummer 4 år 2018. 
                         </p>
-                    
-                        <p> <a href="http://weber.itn.liu.se/~nikro27/tnmk30-2018/"> Länk till kurshemsida </a> </p>
+
+                        <p> <a href="http://weber.itn.liu.se/~nikro27/tnmk30-2018/" target="_blank"> Länk till kurshemsida </a> </p>
                     </div>
 
                     <div class="card">
@@ -61,7 +61,7 @@
                             databasen inte innehåller alla set som finns. Alla bilder är hämtade via Bricklink. 
                         </p>
 
-                        <a href="https://www.bricklink.com/v2/main.page"><img src="./assets/img/bricklink.jpg" alt="loggo Bricklink" /></a>
+                        <a href="https://www.bricklink.com/v2/main.page" target="_blank"><img src="./assets/img/bricklink.jpg" alt="loggo Bricklink" /></a>
 
                     </div>
 

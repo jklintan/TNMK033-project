@@ -27,7 +27,7 @@ body.main{
     flex-direction: column;
     align-items: center;
     margin: 10px 30px;
-    padding: 70px 12vw;
+    padding: 70px 0;
     border: 8px solid #fff;
 }
 
