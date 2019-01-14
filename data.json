@@ -1,0 +1,29 @@
+{
+  "title": "Titel här",
+  "data": [
+    {
+      "text": "hej",
+      "data": 1
+    },{
+      "text": "hej",
+      "data": 1
+    },{
+      "text": "hej",
+      "data": 1
+    }
+  ]
+}
+
+
+const hej = [
+  {
+    "text": "hej",
+    "data": 1
+  },{
+    "text": "hej",
+    "data": 1
+  },{
+    "text": "hej",
+    "data": 1
+  }
+]

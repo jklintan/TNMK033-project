@@ -1,0 +1,25 @@
+body.faq{
+    min-height: 120vh;
+}
+
+.faq .row{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.faq .column{
+    padding: 6px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.faq .card a{
+    font-size: 90%;
+    font-style: italic;
+}
+
+.faq p{
+    font-size: 14px;
+    line-height: 150%;
+}

@@ -1,0 +1,97 @@
+.toplist body{
+    background: linear-gradient(to bottom, #725a46 0%,#c8b4a0 100%);
+    min-height: 120vh;
+}
+
+.toplist p {
+    color: #393e41;
+}
+
+.toplist .container{
+    margin-top: 5vh !important;
+    flex-direction: column;
+    margin: auto;
+}
+
+.toplist .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.toplist button{
+    width: 250px;
+    margin-top: 30px;
+}
+
+.toplist .column{
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+.toplist .columnitem{
+    flex-direction: column;
+    background-color: #fff !important;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    min-width: 300px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+
+.toplist .columnitem img{
+    height: auto !important;
+    align-self: center;
+    max-width: 100%;
+}
+
+
+
+.toplist .row{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.toplist .column{
+    padding: 6px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.toplist .card a{
+    font-size: 90%;
+    font-style: italic;
+}
+
+.toplist p{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.toplist h3{
+    color: #343434;
+}
+
+.toplist .card h2{
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.toplists h1{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.toplists h4{
+    color: #343434;
+    font-size: 55px;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}

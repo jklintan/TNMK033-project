@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(to bottom, #725a46 0%,#c8b4a0 100%);
+    min-height: 100vh;
+}
+
+#results{
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 0;
+    transition: filter .2s ease;
+}
+
+body > header, body > form, body > h1{
+    transition: filter .2s ease;
+}
+
+.searchCard{
+    background-color: #fff !important;
+    padding: 40px;
+    max-width: 300px;
+    margin: 15px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: .2s;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+a h2:hover{
+    transition: all ease-out .2s;
+    color: #343434;
+}
+
+.searchCard h2{
+    margin-bottom: 8px;
+}
+
+.searchCard p{
+    margin-top: 0;
+    color: #000;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    flex-direction: column;
+    z-index: 10; /* Sit on top */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background:rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    justify-content: center;
+    /* border-radius: 5px; */
+    /* overflow:auto; */
+}
+
+.modal h2{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 8px black;
+}
+
+.modal .grapher {
+    max-height: 60vh;
+}
+
+.searchCard img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: auto !important;
+    align-self: center;
+    max-width: 100%;
+}
+
+form{
+    justify-content: center;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.closeButton{
+    cursor: pointer;
+    position: fixed;
+    font-size: 40px;
+    background: #fff;
+    line-height: 40px;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all .4s ease;
+    top: 20px;
+    right: 20px;
+}
+
+.closeButton:hover{
+    background:#ff6347;
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    width: 50%;
+    background-color: #fff;
+}
+

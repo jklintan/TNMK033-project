@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  .stats .row {
+    flex-direction: column;
+  }
+  .leftGraphics {
+    width: 100vw;
+    align-items: center;
+  }
+  .rightGraphics {
+    width: 100vw;
+    align-items: center;
+  }
+  .start .centerBox {
+    border: 0px;
+  }
+
+
+  .rowBanner {
+    border: 0px;
+    margin: 0;
+  }
+}
